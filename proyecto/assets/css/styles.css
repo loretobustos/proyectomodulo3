@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+/* display flex */
+.container {
+    display: flex;
+    background-color: blueviolet;
+}
+
+.box {
+    background-color: lightblue;
+    margin: 10px;
+}
+
+
+/* display: inline-flex */
+.caja {
+    display: inline-flex;
+    background-color: blue;
+}
+
+.cajita {
+    
+    background-color: lightblue;
+    margin: 10px;
+}
+
+/* display grid */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.conte {
+    background-color: lightblue;
+}
